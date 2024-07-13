@@ -44,6 +44,7 @@ function TodoList() {
 
     return (
         <div className="Todo-List">
+            <div className="Todo-List-Title">Todo List</div>
             <div className="Todo-List-Items">
                 {tasks.map(task => (
                     <TodoItem
